@@ -4,8 +4,8 @@
 \def\tone{formal}  % Set via config or database
 
 % LOGO, letterhead, signature images
-\def\logo{\linebreak \includegraphics[height=2.5em]{src/logo.png}} % Path to logo
-\def\signatureimage{\vspace*{1.5em}\includegraphics[height=3.5em]{src/signature.png}}% Path to signature image
+\def\logo{\linebreak \includegraphics[height=2.5em]{assets/logo.png}} % Path to logo
+\def\signatureimage{\vspace*{1.5em}\includegraphics[height=3.5em]{assets/signature.png}}% Path to signature image
 \definecolor{companyblue}{RGB}{0,80,80}
 \definecolor{companygray}{RGB}{45,58,58}
 
@@ -19,9 +19,9 @@
 
 % Letterhead/header setup (optional, transparent if off) - define path, then update \fancyhead
 \def\useletterhead{yes}  % "yes" or "no"; set via config
-\def\letterheadpath{src/noletterhead.png}  % Default to transparent
+\def\letterheadpath{assets/noletterhead.png}  % Default to transparent
 \ifthenelse{\equal{\useletterhead}{yes}}{
-  \def\letterheadpath{src/letterhead.png}
+  \def\letterheadpath{assets/letterhead.png}
 }{}
 \fancyhead[C]{\includegraphics[height=5.0em,width=\textwidth,keepaspectratio]{\letterheadpath}}  % Update here; applies to current/next pages
 %\fancyhead[C]{Test Header}
