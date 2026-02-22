@@ -2,6 +2,8 @@
 
 This is a minimalist LaTeX template using **letter.cls** for professional business letters. It supports customisable sender/recipient details, tones (formal/informal), letterhead/logo, signatures, colours, and subject lines. Ideal for invitations, proposals, or formal correspondence.
 
+<img src="./assets/sample-business-letter.png" alt="image-20260222110001571" style="zoom:67%;" />
+
 ## Features
 
 - Clean, single-page layout with optional multipage toggle.
