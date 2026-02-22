@@ -80,4 +80,4 @@ MIT License. See [LICENSE](LICENSE) file.
 
 Copyright © Davit Technologies 2026
 
-Version: 3.7
+Version: 3.7.1
