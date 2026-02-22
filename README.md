@@ -1,8 +1,10 @@
 # LaTeX Standard Business Letter Template
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/DavitTec/latex-letter-std-business?style=for-the-badge)](https://github.com/DavitTec/latex-letter-std-business/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/DavitTec/latex-letter-std-business?style=for-the-badge&logo=github)](https://github.com/DavitTec/latex-letter-std-business/releases)
 [![GitHub open issues](https://img.shields.io/github/issues-raw/DavitTec/latex-letter-std-business?style=for-the-badge&label=Open%20Issues)](https://github.com/DavitTec/latex-letter-std-business/issues)
 [![GitHub top language](https://img.shields.io/github/languages/top/DavitTec/latex-letter-std-business?style=for-the-badge)](https://github.com/DavitTec/latex-letter-std-business)
+[![GitHub license](https://img.shields.io/github/license/DavitTec/latex-letter-std-business?style=for-the-badge)](https://github.com/DavitTec/latex-letter-std-business)
+
 
 
 This is a minimalist LaTeX template using **letter.cls** for professional business letters. It supports customisable sender/recipient details, tones (formal/informal), letterhead/logo, signatures, colours, and subject lines. Ideal for invitations, proposals, or formal correspondence.
