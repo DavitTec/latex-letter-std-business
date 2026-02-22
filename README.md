@@ -5,11 +5,9 @@
 [![GitHub top language](https://img.shields.io/github/languages/top/DavitTec/latex-letter-std-business?style=for-the-badge)](https://github.com/DavitTec/latex-letter-std-business)
 [![GitHub license](https://img.shields.io/github/license/DavitTec/latex-letter-std-business?style=for-the-badge)](https://github.com/DavitTec/latex-letter-std-business)
 
-
-
 This is a minimalist LaTeX template using **letter.cls** for professional business letters. It supports customisable sender/recipient details, tones (formal/informal), letterhead/logo, signatures, colours, and subject lines. Ideal for invitations, proposals, or formal correspondence.
 
-<img src="./assets/sample-business-letter.png" alt="image-20260222110001571" style="zoom:67%;" />
+![Sample Business Letter](./assets/sample-business-letter.png)
 
 ## Features
 
@@ -71,9 +69,9 @@ latex-letter-std-business/
 
 ## Customisation
 
-- Tone/Salutation: Set \def\tone{formal} in metadata.tex. 
-- Colours: Edit \definecolor in metadata.tex. 
-- Positions: Adjust \vspace* in \opening redefinition for sender/recipient/date. 
+- Tone/Salutation: Set \def\tone{formal} in metadata.tex.
+- Colours: Edit \definecolor in metadata.tex.
+- Positions: Adjust \vspace\* in \opening redefinition for sender/recipient/date.
 - Build Script: See [TODO.md](docs/TODO.md) for planned bash/JS script.
 
 ## License

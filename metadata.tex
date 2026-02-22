@@ -1,7 +1,7 @@
 % Metadata Version: 3.5.2
 
 % Tone/context (e.g., formal, informal, business)
-\def\tone{formal}  % Set via config or database
+\def\tone{informal}  % Set via config or database
 
 % LOGO, letterhead, signature images
 \def\logo{\linebreak \includegraphics[height=2.5em]{assets/logo.png}} % Path to logo
@@ -23,7 +23,7 @@
 \ifthenelse{\equal{\useletterhead}{yes}}{
   \def\letterheadpath{assets/letterhead.png}
 }{}
-\fancyhead[C]{\includegraphics[height=5.0em,width=\textwidth,keepaspectratio]{\letterheadpath}}  % Update here; applies to current/next pages
+\fancyhead[C]{\includegraphics[height=4.0em,width=\textwidth,keepaspectratio]{\letterheadpath}}  % Update here; applies to current/next pages
 %\fancyhead[C]{Test Header}
 
 
@@ -76,7 +76,7 @@
 \long\def\closing#1{\par\nobreak\vspace{\parskip}%
   \stopletter%
   \noindent #1\par\nobreak%
-  \vspace*{1em}%
+  \vspace*{1em}%   % orginal: \vspace*{1em}%
   \noindent \fromsig \par}
 \makeatother
 
@@ -89,7 +89,7 @@
       \fromaddress \\*[2\parskip]%
       \end{tabular}\par}%
   \fi
-  \vspace*{0.5cm}% 
+  \vspace*{-0.5cm}%    \vspace*{0.5cm}% 
   {\raggedright \toname \\ \toaddress \par}%
   {\raggedleft  \textcolor{companygray}{\@date}\par} % Date here, after recipient
   \vspace{2\parskip}%
